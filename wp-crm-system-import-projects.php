@@ -3,7 +3,7 @@
    Plugin Name: WP-CRM System Import Projects
    Plugin URI: https://www.wp-crm.com
    Description: Upload projects to WP-CRM System in a CSV file.
-   Version: 2.2.3
+   Version: 2.2.4
    Author: Scott DeLuzio
    Author URI: https://www.wp-crm.com
    Text Domain: wp-crm-system-import-projects
@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 define( 'WPCRM_IMPORT_PROJECTS', __FILE__ );
-define( 'WPCRM_IMPORT_PROJECTS_VERSION', '2.2.3' );
+define( 'WPCRM_IMPORT_PROJECTS_VERSION', '2.2.4' );
 if ( ! defined( 'WPCRM_IMPORT_PROJECTS_DIR' ) ){
 	define( 'WPCRM_IMPORT_PROJECTS_DIR', plugin_dir_path( __FILE__ ) );
 }
